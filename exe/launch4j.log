@@ -1,0 +1,14 @@
+
+
+Version:	3.12
+CmdLine:	C:\Users\user\Documents\NetBeansProjects\Simple run\exe\Simple Run.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\user\Documents\NetBeansProjects\Simple run\exe\.
+Java min ver:	
+Java max ver:	
+Bundled JRE:	bin\jre1.8.0_111
+Check launcher:	C:\Users\user\Documents\NetBeansProjects\Simple run\exe\bin\jre1.8.0_111\bin\javaw.exe (OK)
+Launcher:	C:\Users\user\Documents\NetBeansProjects\Simple run\exe\bin\jre1.8.0_111\bin\javaw.exe
+Launcher args:	-jar "C:\Users\user\Documents\NetBeansProjects\Simple run\exe\Simple Run.exe"
+Args length:	77/32768 chars
+Exit code:	0

@@ -19,11 +19,13 @@ public class Gui2 extends JFrame{
     JLabel l1,l2;
     JPanel p4;
     event e=new event();
+ 
     public Gui2(){
     this.setTitle("Error");
     this.setVisible(true);
     this.setSize(300, 200);
     this.setLocation(750, 550);
+     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     p4=new JPanel();
     p4.setBackground(Color.BLACK);
     add(p4);
@@ -44,11 +46,12 @@ public class Gui2 extends JFrame{
     
     }
     private class event implements ActionListener{
-
+   Gui g=new Gui();
         @Override
         public void actionPerformed(ActionEvent e) {
             
             if(e.getSource()==b1){
+                g.setVisible(false);
                 SimpleRun.main(null);
                 setVisible(false);
                 

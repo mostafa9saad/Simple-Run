@@ -48,7 +48,7 @@ public class Gui extends JFrame {
         this.setVisible(true);
         this.setSize(600,500);
         this.setResizable(false);
-        this.setLocation(650,350);
+        this.setLocation(500,200);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         p1=new JPanel();
          p1.setBackground(Color.BLACK);
@@ -131,7 +131,7 @@ public class Gui extends JFrame {
                   else{
                  
                   Gui2 m=new Gui2();
-        }
+        setVisible(false);} 
                  
               }
               
